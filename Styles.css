@@ -1,0 +1,128 @@
+* {
+  background-color: rgb(20, 20, 20);
+  color: #fff ;
+}
+main {
+  padding: 25px;
+  border-top: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1{
+  padding: 5px;
+}
+
+
+.clientes {
+  font-size: 22px;
+}
+.new {
+  font-size: 15px;
+}
+
+div {
+  padding-top: 5px;
+}
+input {
+  border-radius: 5px;
+  border: 0.5px solid rgb(170, 170, 170);
+}
+.id {
+  padding-right: 52px;
+}
+.id-box {
+  width: 187px;
+}
+.nombre {
+  padding-right: 10px;
+}
+.cedula {
+  padding-right: 17px;
+}
+
+.telefono {
+  padding-right: 5px;
+}
+.correo {
+  padding-right: 20px;
+}
+.correo-box {
+  width: 186px;
+}
+
+.btns {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  * {
+    color: #fff;
+  }
+  span {
+    margin-left: 200px;
+  }
+  div {
+    display: inline-block;
+  }
+  .btns {
+    display: inline-block;
+    margin-right: 15px;
+  }
+
+  .btn {
+    width: 111px;
+  }
+  h1{
+    padding: 5px;
+    margin-left: 35px;
+  }
+  h2,h3{
+    margin-left: 45px;
+  }
+}
+
+@media (min-width: 960px) {
+  span {
+    margin-left: 200px;
+  }
+  .izquierda,
+  .derecha {
+    display: inline-block;
+    width: 500px;
+    margin-left: 170px;
+    margin-right: auto;
+  }
+  .btns {
+    display: inline-block;
+    margin-right: 6vw;
+  }
+  .exportar {
+    margin-right: 1.9vw;
+    margin-left: 200px;
+  }
+  .btn {
+    width: 111px;
+  }
+  .tabla {
+    width: 1000px;
+    margin: 0 auto 0  auto;
+  }
+  h1{
+    padding: 5px;
+    margin-left: 195px;
+  }
+  h2,h3{
+    margin-left: 200px;
+    
+  }
+}
